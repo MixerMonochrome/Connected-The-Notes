@@ -5,6 +5,5 @@ export class Group {
     id:number;
     user:User;
     name:string;
-    parent:Note;
     base:boolean;
 }

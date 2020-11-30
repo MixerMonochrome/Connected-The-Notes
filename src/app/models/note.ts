@@ -5,6 +5,6 @@ export class Note {
     title:string;
     note:string;
     inGroup:Group;
-    childGroup:Group;
+    childGroup:Group[];
     priority:number;
 }
